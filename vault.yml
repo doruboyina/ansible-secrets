@@ -16,7 +16,7 @@
       - destroy  
   - name: debug the password that was encrypted
     debug:
-      msg: 'the password is {{password}}'
+      msg: 'the password is {{vault_password}}'
     tags:
       - create
       - destroy
