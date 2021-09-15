@@ -18,5 +18,5 @@
     debug:
       msg: 'the password is {{password}}'
     tags:
-      - create
+      - delete
       - destroy
